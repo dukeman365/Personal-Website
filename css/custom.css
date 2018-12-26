@@ -4,7 +4,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: relative;
 }
 
 #page {
@@ -86,6 +86,7 @@
   background-image: url("/home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100vw;
 }
 #home h3 {
   color: black;
@@ -113,6 +114,7 @@
 
 #portfolio {
   background-image: url("/work.jpg");
+  background-size: cover;
 }
 
 #contact {
