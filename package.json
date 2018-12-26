@@ -8,8 +8,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Robinson Cook",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukeman365/Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dukeman365/Website/issues"
+  },
+  "homepage": "https://github.com/dukeman365/Website#readme"
 }
