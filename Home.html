@@ -15,28 +15,28 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./home.html"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="navi active"><a href="#home">Home</a></li>
-            <li class="navi"><a href="#about">About</a></li>
-            <li class="navi"><a href="#resume">Resume</a></li>
-            <li class="navi"><a href="#academics">Academics</a></li>
-            <li class="navi"><a href="#Portfolio">Portfolio</a></li>
-            <li class="navi"><a href="#Contact">Contact</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./home.html"></a>
       </div>
-    </nav>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="navi active"><a href="#home">Home</a></li>
+          <li class="navi"><a href="#about">About</a></li>
+          <li class="navi"><a href="#resume">Resume</a></li>
+          <li class="navi"><a href="#academics">Academics</a></li>
+          <li class="navi"><a href="#Portfolio">Portfolio</a></li>
+          <li class="navi"><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
   <div class="container-fluid" id="page">
@@ -53,10 +53,13 @@
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <div class=card>
-              <img class="card__image" src="/bascom.jpg" />
+              <div class="card__image-hero" id="student">
+                <div class="card__text-hero">
               <h2 class="card__title">
                 I am a student
               </h2>
+            </div>
+          </div>
               <p class="card__text">
                 I am a third year studying Electrical Engineering and Computer Science at the University of Wisconsin Madison. I am a part of software development club and Insight Wisconsin, the local inventors club. When I’m not in the classroom or
                 working on developing my skills, I like to hang out with my friends and play video games.
@@ -65,10 +68,13 @@
           </div>
           <div class="col-xs-12 col-md-4">
             <div class="card">
-              <img class="card__image" src="/Code.jpg" />
-              <h2 class="card__title">
-                I am a Developer
-              </h2>
+              <div class="card__image-hero" id="developer">
+                <div class="card__text-hero">
+                  <div class="card__title">
+                    I am a Developer
+                  </div>
+                </div>
+              </div>
               <p class="card__text">
                 Outside of school, one of my main focuses is freelance software development. Ever since writing my first hello world program, I’ve been hooked on coding. If I’m not working on projects for school, I’m honing my ever-growing list of
                 web development skills. My academic background has given me strong foundations in backend software development and data structures while my extra curricular activities have strengthened my front end capabilities as well.
@@ -77,10 +83,14 @@
           </div>
           <div class="col-xs-12 col-md-4">
             <div class="card">
-              <img class="card__image" src="/entrepreneur.jpg" />
-              <h2 class=card__title>
-                I am an Entrepreneur
-              </h2>
+              <div class="card__image-hero" id="entrepreneur">
+                <div class="card__text-hero">
+                  <h2 class="card__title">
+                    I am an Entrepreneur
+                  </h2>
+                </div>
+              </div>
+              Every day i'm hustlin
             </div>
           </div>
         </div>
@@ -450,8 +460,8 @@
     <div class="row page" id="Contact">
 
     </div>
-    </div>
-    <!--End Page-->
+  </div>
+  <!--End Page-->
   </div>
 
 
