@@ -84,9 +84,6 @@
 #home {
   color: white;
   background-image: url("/home.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
 }
 #home h3 {
   color: black;
@@ -114,7 +111,6 @@
 
 #portfolio {
   background-image: url("/work.jpg");
-  background-size: cover;
 }
 
 #contact {
