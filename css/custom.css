@@ -90,6 +90,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   padding: 25vh 25vw;
   height: 100vh;
 }
@@ -101,7 +102,7 @@
 #resume {
   background-color: white;
   background-image: url("/brickwall.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-position: fixed;
   background-attachment: fixed;
   min-height: 100vh;

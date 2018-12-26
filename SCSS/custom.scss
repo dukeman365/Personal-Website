@@ -90,9 +90,10 @@ padding:0px 2vw;
   color: white;
   background-color: white;
   background-image: url("/Server.jpg");
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   padding: 25vh 25vw;
   height: 100vh;
 }
@@ -105,7 +106,7 @@ padding:0px 2vw;
 
   background-color: white;
   background-image: url("/brickwall.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-position:fixed;
   background-attachment: fixed;
   min-height: 100vh;
