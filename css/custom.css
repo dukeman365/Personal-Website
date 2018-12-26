@@ -1,6 +1,6 @@
 .page {
   min-height: 100vh;
-  padding: 50px;
+  padding: 5vh 5vw;
 }
 
 #page {
@@ -102,6 +102,7 @@
   background-color: white;
   background-image: url("/brickwall.jpeg");
   background-size: cover;
+  background-position: fixed;
   background-attachment: fixed;
   min-height: 100vh;
 }
@@ -134,7 +135,7 @@
 }
 
 .academic-history {
-  padding: 30px;
+  padding: 3vh;
 }
 
 .ribbon {
