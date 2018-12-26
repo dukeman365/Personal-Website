@@ -1,6 +1,10 @@
 .page {
   min-height: 100vh;
-  padding: 5vh 5vw;
+  padding: 5vh 1vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #page {
@@ -8,6 +12,7 @@
 }
 
 .card {
+  padding: 10px;
   margin: 10px;
   height: auto;
   border-radius: 2px;
@@ -21,10 +26,12 @@
 
 .card__image {
   width: 100%;
+  margin: 0;
 }
 
 .card__text {
   padding: 10px;
+  color: black;
 }
 
 #entrepreneur {
@@ -58,7 +65,7 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 2em;
-  padding: 0px 2vw;
+  padding: 0 2vw;
 }
 
 .Jobs {
@@ -66,89 +73,61 @@
   list-style-type: none;
 }
 
-.Jobs__Job {
-  padding: 10px;
-}
-
 .Classes__class {
   color: #C9861D;
 }
 
-.Classes__year {
-  padding: 10px 0;
-}
-
 .Classes__semester {
-  padding: 10px;
   min-height: 300px;
 }
 
 #home {
   color: white;
-  background-color: white;
-  background-image: url("/Server.jpg");
+  background-image: url("/home.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  padding: 25vh 25vw;
-  height: 100vh;
+}
+#home h3 {
+  color: black;
+}
+#home .card {
+  position: relative;
+  top: 25vh;
+  margin: auto;
+  width: 25vw;
+  min-width: 400px;
 }
 
 #about {
   background-color: #2B4264;
+  text-align: center;
 }
 
 #resume {
-  background-color: white;
   background-image: url("/brickwall.jpeg");
-  background-size: contain;
-  background-position: fixed;
-  background-attachment: fixed;
-  min-height: 100vh;
 }
 
 #academics {
   background-color: #2B4264;
 }
 
-.skills {
-  padding: 20px;
+#portfolio {
+  background-image: url("/work.jpg");
 }
 
-#home-text {
-  background-color: #CECECE;
-  padding: 2vh 3vw;
-  position: relative;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 1vw;
-  margin: auto;
-  min-width: 50vw;
-  max-width: 70vw;
-  max-height: 50vh;
-}
-#home-text h1 {
-  font-size: 5vw;
-}
-#home-text h2 {
-  font-size: 2.5vw;
+#contact {
+  background-color: #C9861D;
 }
 
 .academic-history {
-  padding: 3vh;
+  padding: 0 1vw;
 }
 
-.ribbon {
-  margin: 0;
-  width: 100%;
+.card__ribbon {
+  border-radius: 3px;
+  position: center;
   color: white;
   background-color: #2B4264;
-}
-
-.ribbon-academic {
-  background-color: #C9861D;
-  color: white;
 }
 
 .company__title {
