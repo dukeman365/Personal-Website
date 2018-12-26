@@ -9,4 +9,4 @@ app.get('/',function(req,res){
 app.use('/',express.static(__dirname+'/css'));
 app.use('/',express.static(__dirname+'/images'));
 
-app.listen(8080);
+app.listen(process.env.PORT||8080);
