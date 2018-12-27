@@ -4,7 +4,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: relative;
+  background-size: cover;
 }
 
 #page {
@@ -84,6 +84,7 @@
 #home {
   color: white;
   background-image: url("/home.jpg");
+  padding: 0px 25vw;
 }
 #home h3 {
   color: black;
@@ -92,8 +93,8 @@
   position: relative;
   top: 25vh;
   margin: auto;
-  width: 25vw;
-  min-width: 400px;
+  width: auto;
+  max-width: 40vh;
 }
 
 #about {
